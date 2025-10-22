@@ -89,11 +89,11 @@ smart-shoe-laundry-api/
 │   ├── config/
 │   │   └── supabaseClient.js       # Koneksi ke Supabase
 │   ├── models/
-│   │   └── shoeModel.js            # Query database
+│   │   └── itemModel.js            # Query database
 │   ├── controllers/
-│   │   └── shoeController.js       # Logika bisnis API
+│   │   └── itemController.js       # Logika bisnis API
 │   ├── routes/
-│   │   └── shoeRoutes.js           # Definisi endpoint
+│   │   └── itemRoutes.js           # Definisi endpoint
 │   └── index.js                    # Entry point server
 │
 ├── .env                            # Konfigurasi rahasia
@@ -110,8 +110,8 @@ smart-shoe-laundry-api/
 ### 1. Clone Repository
 
 ```bash
-git clone https://github.com/username/smart-shoe-laundry-api.git
-cd smart-shoe-laundry-api
+git clone https://github.com/fadianf/Responsi-Modul1-PPB-FadiaNF-Kel33.git
+cd Responsi-Modul1-PPB-FadiaNF-Kel33
 ```
 
 ### 2. Install Dependensi
@@ -204,7 +204,7 @@ Akses melalui: [http://localhost:3000](http://localhost:3000)
 3. **Verifikasi URL API:**
 
    ```
-   https://smart-shoe-laundry.vercel.app/api/shoes
+   https://responsi-modul1-ppb-fadia-nf-kel33.vercel.app/api/shoes
    ```
 
 
@@ -213,7 +213,7 @@ Akses melalui: [http://localhost:3000](http://localhost:3000)
 ### 1️⃣ GET `/`
 
 ```bash
-curl https://smart-shoe-laundry.vercel.app/
+curl https://responsi-modul1-ppb-fadia-nf-kel33.vercel.app/
 ```
 
 **Response:**
@@ -234,7 +234,7 @@ curl https://smart-shoe-laundry.vercel.app/
 ### 2️⃣ POST `/api/shoes`
 
 ```bash
-curl -X POST https://smart-shoe-laundry.vercel.app/api/shoes \
+curl -X POST https://responsi-modul1-ppb-fadia-nf-kel33.vercel.app/api/shoes \
   -H "Content-Type: application/json" \
   -d '{
     "nama": "Puma Suede Classic",
@@ -262,7 +262,7 @@ curl -X POST https://smart-shoe-laundry.vercel.app/api/shoes \
 ### 3️⃣ PUT `/api/shoes/:id`
 
 ```bash
-curl -X PUT https://smart-shoe-laundry.vercel.app/api/shoes/7 \
+curl -X PUT https://responsi-modul1-ppb-fadia-nf-kel33.vercel.app/api/shoes/7 \
   -H "Content-Type: application/json" \
   -d '{
     "status": "Selesai",
@@ -283,7 +283,7 @@ curl -X PUT https://smart-shoe-laundry.vercel.app/api/shoes/7 \
 ### 4️⃣ DELETE `/api/shoes/:id`
 
 ```bash
-curl -X DELETE https://smart-shoe-laundry.vercel.app/api/shoes/7
+curl -X DELETE https://responsi-modul1-ppb-fadia-nf-kel33.vercel.app/api/shoes/7
 ```
 
 **Response:**
