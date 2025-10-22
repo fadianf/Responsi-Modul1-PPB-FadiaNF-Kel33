@@ -5,6 +5,8 @@
 ![Supabase](https://img.shields.io/badge/Supabase-Database-orange)
 ![Vercel](https://img.shields.io/badge/Deployment-Vercel-black)
 
+* Link Vercel: https://responsi-modul1-ppb-fadia-nf-kel33.vercel.app/
+
 ## 📘 Deskripsi Proyek
 
 Proyek ini adalah **RESTful API** yang digunakan untuk mengelola data cucian sepatu secara digital.
